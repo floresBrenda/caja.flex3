@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main>div{
+    background-color: yellow;
+    height: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+}
+header{
+    background-color: rgb(76, 175, 117);
+    height: 170px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 18px;
+}
+nav{
+    background-color: rgb(46, 43, 43);
+    height: 20px;
+    font-size: 20px;
+    word-spacing: 50px;
+    padding: 15px 10px;
+}
+a{
+    display: inline;
+    text-decoration: none;
+    color:white;
+    height: 20px;
+    padding: 15px 10px;
+}
+a:hover{
+    background-color: gray;
+    color:black;
+}
+.cajagrande{
+    display: flex;
+}
+.cajapadre{
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    background-color: rgb(246, 240, 240);
+}
+.caja1{
+    flex-direction: row;
+    margin: 10px;
+}
+.caja2{
+    flex-direction: row;
+    margin: 10px;
+}
+section>div>h2{
+    font-size: 30px;
+    padding: 10px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pie{
+    font-size: 15px;
+    padding: 5px 15px;
+}
+.foto1{
+    background-color: rgb(141, 136, 136);
+    height: 80px;
+    padding-left: 5px;
+}
+.textabajo{
+    padding: 10px 10px;
+    font-size: 13px;
+}
+.foto2{
+    background-color: rgb(141, 136, 136);
+    height: 40px; 
+    margin: 10px;
+    padding-left: 5px;
+}
+.cajamadre{
+    flex-direction: column;
+}
+article{
+    flex-direction: column;
+}
+.titulo{
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+article>p{
+    margin-left: 20px;
+}
+article>h6{
+    background-color:  rgb(141, 136, 136);
+    height: 100px;
+    margin: 10px;
+    padding-left: 10px;
+    font: size 10px;;
+}
+.abajo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
